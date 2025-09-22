@@ -1,0 +1,13 @@
+(require 'ox-publish)
+
+(setq org-publish-project-alist
+      (list
+       (list "lambda-iitgn.github.io"
+	     :recursive t
+	     :base-directory "./org-content"
+	     :publishing-directory "./public"
+	     :publishing-function 'org-html-publish-to-html)))
+
+(org-publish-all t)
+
+(message "Build complete!")
