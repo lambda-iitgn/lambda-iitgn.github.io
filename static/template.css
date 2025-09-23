@@ -118,14 +118,20 @@ html {
 body {
   margin: 0;
   line-height: 1.5;
-  color: #000000;
-  background-color: #ffffff;
+  color: #515151;
+  background-color: #fff5e5;
 }
 
 p {
   font-family: "Atkinson Hyperlegible", sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+li {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  margin-top: 0;
+
 }
 
 b {
