@@ -12,7 +12,27 @@
 (package-install 'htmlize)
 (require 'ox-publish)
 ;;; Code:
+
 (setq org-html-validation-link nil
+      org-html-preamble t
+      org-html-head "<link rel=\"stylesheet\" href=\"./static/template.css\" />"
+      org-html-preamble-format
+      (list
+       (list "en"
+	     "<div class=\"container\">
+                <div class=\"site-title\">
+                  <img class=\"logo\"src=\"/img/lambdalogo.png\" alt=\",\\ AMBDA.\">
+                </div>
+              </div>
+              <div class=\"site-masthead\">
+                <div class=\"container\">
+                  <nav class=\"nav\">
+                    <a class=\"nav-link\" href=\"/\">Home</a>
+                    
+                  </nav>
+                </div>
+              </div>"
+	))
       )
 (setq org-publish-project-alist
       (list

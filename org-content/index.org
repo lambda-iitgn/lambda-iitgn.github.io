@@ -3,12 +3,12 @@
 # #+html: <a href="https://www.w3schools.com/html/">HTML</a>
 # #+end_nav
 
-* Welcome to ,\ AMBDA!
-** What is ,\ AMBDA?
+* /Welcome to ,\ AMBDA!/
+** /What is ,\ AMBDA?/
    ,\ AMBDA. is a PLT hobby group at IIT Gandhinagar. It was formed as a hobby group in October 2024, and will (hopefully) be soon formally established as a club. 
-** What is PLT?
+** /What is PLT?/
    PLT stands for programming language theory. Programming language theory has had a long history, with the lambda calculus (our namesake) being formalised by Alonzo Church in the 1930s.
-** How does ,\ AMBDA engage with PLT?
+** /How does ,\ AMBDA engage with PLT?/
    Many ways. In particular, our overarching goals are -
    + spread awareness of PLT and related topics on the IITGN campus.
    + stay in touch with research in PLT, both past and current.
