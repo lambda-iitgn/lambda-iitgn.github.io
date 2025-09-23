@@ -340,11 +340,6 @@ strong {
  * Blog name and description
  */
 
-.site-header {
-  font-weight: bold;
-  background-image: url("/img/header_bg.png");
-  background-size: cover;
-}
 
 .site-title {
   margin-bottom: 0rem;

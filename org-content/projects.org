@@ -1,9 +1,22 @@
 #+title: ,\ AMBDA.
 * /Projects, past and present/
+  Most of these works are on hold due to the examinations being held at IIT Gandhinaghar. Work is expected to start after the midsem break.
+  Discussion on these projects all take place in the [[https://lambda-iitgn.zulipchat.com/][Zulip]].
+  Project repositories are hosted on [[https://github.com/lambda-iitgn][GitHub]].
+  Each header links to a progress report detailing the work on the project.
 ** 2025-2026
-*** A Physical Implementation of the Lambda Calculus
-*** Building a Language Server Protocol
-*** Maintenance of the Rocq Backend of the HAX Rust Verification Toolchain
-*** Formally Specifying Rust Libraries
-*** Contributing to CSLib
-*** Translation of Software Foundations to LEAN
+*** [[file:./progress/phys-lambda][A Physical Implementation of the Lambda Calculus]]
+    The Lambda Calculus is a model of computation first formalised by Alonzo Church in the 1930s. It is a basis for all computation, (just like Turing Machines), yet unlike Turing Machines, presentations of the Lambda Calculus tend to be abstract. As far as we know, they tend to be either purely on pen-and-paper, or written within a programming language themselves. We hope to be able to break that trend, by making a physical evaluator for the lambda calculus. Some insipirations are listed below -
+    + [[https://worrydream.com/AlligatorEggs/][Alligator Eggs]]
+    + [[https://mnfdidaktiken.uni-koeln.de/fileadmin/home/ischwank/dynlab/game/dynlab_en.html][Dynamic Labyrinths]]
+    + [[https://justine.lol/lambda/][Lambda Calculus in 383 Bytes]]
+*** [[file:./progress/lsp-2025][Building a Language Server Protocol]]
+    This is primarily a learning project, where we want to build a language server protocol to figure out how one works. Currently, we plan to do it for the [[https://pyret.org/][Pyret]] programming language.
+*** [[file:./progress/hax.org][Maintenance of the Rocq Backend of the HAX Rust Verification Toolchain]]
+    [[https://github.com/cryspen/hax/][HAX]] is a verification toolchain for Rust programs. It works by taking Rust programs, and trying to translate them into formal languages such as F*, LEAN4, and Rocq. The project title is self explanatory.
+*** [[file:./progress/rustlib.org][Formally Specifying Rust Libraries]]
+    The HAX toolchain isn't all encompassing, and there are many libraries of Rust code that are /not/ just Rust code. For example, they may use FFI to call C or LLVM code. The documentation within these projects can be very hard to follow, and sometimes just wrong. Thus, by writing /formal/ specifications in the form of clean, functional, Rust code that mirrors their behaviour, allowing tools like HAX to reason about them.
+*** [[file:./progress/cslib.org][Contributing to CSLib]]
+    [[https://github.com/leanprover/cslib][CSLib]] is a very new library for formalised computer science in LEAN4, inspired by the success of Mathlib for formalised mathematics. We want to contribute to it.
+*** [[file:./progress/sf-lean.org][Translation of Software Foundations to LEAN]]
+    [[https://softwarefoundations.cis.upenn.edu/][Software Foundations]] is a phenomenal resource for getting familiar with the Rocq theorem prover, and we want to write a LEAN4 translation in a manner that respects the specific differences between Rocq and LEAN4, while also considering the current trends of best practices within the LEAN community.  
