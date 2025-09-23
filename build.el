@@ -15,7 +15,9 @@
 
 (setq org-html-validation-link nil
       org-html-preamble t
-      org-html-head "<link rel=\"stylesheet\" href=\"/static/template.css\" />"
+      org-html-head "
+      <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">
+      <link rel=\"stylesheet\" href=\"/static/template.css\" />"
       org-html-preamble-format
       (list
        (list "en"
@@ -29,7 +31,7 @@
                   <nav class=\"nav\">
                     <a class=\"nav-link\" href=\"/\">Home</a>
                     <a class=\"nav-link\" href=\"/projects.html\">Projects</a>
-                    <a class=\"nav-link\" href=\"/sponsors.html\">Contac</a>
+                    <a class=\"nav-link\" href=\"/sponsors.html\">Sponsors</a>
                     <a class=\"nav-link\" href=\"/contact.html\">Contact</a>
                   </nav>
                 </div>
