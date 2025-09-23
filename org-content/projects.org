@@ -6,7 +6,7 @@
   Each header links to a progress report detailing the work on the project.
 ** 2025-2026
 *** [[file:./progress/phys-lambda][A Physical Implementation of the Lambda Calculus]]
-    The Lambda Calculus is a model of computation first formalised by Alonzo Church in the 1930s. It is a basis for all computation, (just like Turing Machines), yet unlike Turing Machines, presentations of the Lambda Calculus tend to be abstract. As far as we know, they tend to be either purely on pen-and-paper, or written within a programming language themselves. We hope to be able to break that trend, by making a physical evaluator for the lambda calculus. Some insipirations are listed below -
+    The Lambda Calculus is a model of computation first formalised by Alonzo Church in the 1930s. It is a basis for all computation, (just like Turing Machines), yet unlike Turing Machines, presentations of the Lambda Calculus tend to be abstract. As far as we know, they tend to be either purely on pen-and-paper, or written within a programming language themselves. We hope to be able to break that trend, by making a physical evaluator for the lambda calculus. Some inspirations are listed below -
     + [[https://worrydream.com/AlligatorEggs/][Alligator Eggs]]
     + [[https://mnfdidaktiken.uni-koeln.de/fileadmin/home/ischwank/dynlab/game/dynlab_en.html][Dynamic Labyrinths]]
     + [[https://justine.lol/lambda/][Lambda Calculus in 383 Bytes]]
