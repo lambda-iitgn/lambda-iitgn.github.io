@@ -1,3 +1,4 @@
+#+title: ,\ AMBDA.
 * /Projects, past and present/
 ** 2025-2026
 *** A Physical Implementation of the Lambda Calculus

@@ -29,7 +29,7 @@
                   <nav class=\"nav\">
                     <a class=\"nav-link\" href=\"/\">Home</a>
                     <a class=\"nav-link\" href=\"/projects.html\">Projects</a>
-                    <a class=\"nav-link\" href=\"/sponsors.html\">Sponsors</a>
+                    <a class=\"nav-link\" href=\"/sponsors.html\">Contac</a>
                     <a class=\"nav-link\" href=\"/contact.html\">Contact</a>
                   </nav>
                 </div>
