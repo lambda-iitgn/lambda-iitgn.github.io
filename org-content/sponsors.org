@@ -1,0 +1,5 @@
+* /Our Current Sponsors/
+** /Zulip/
+   Zulip has sponsored our organisation by providing us the Standard Cloud plan for free.
+** /Adding to this list/
+   Please reach out to us through the avenues mentioned in [[file:./contact.org][Contact]].

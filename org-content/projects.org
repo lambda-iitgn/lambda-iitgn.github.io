@@ -1,0 +1,8 @@
+* /Projects, past and present/
+** 2025-2026
+*** A Physical Implementation of the Lambda Calculus
+*** Building a Language Server Protocol
+*** Maintenance of the Rocq Backend of the HAX Rust Verification Toolchain
+*** Formally Specifying Rust Libraries
+*** Contributing to CSLib
+*** Translation of Software Foundations to LEAN

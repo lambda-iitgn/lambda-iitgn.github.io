@@ -1,0 +1,9 @@
+* /How to contact us?/
+** /Email/
+   Send an email at [[mailto:aniket.mishra@iitgn.ac.in][aniket.mishra@iitgn.ac.in]].
+** /Zulip/
+   Join the Zulip at [[https://lambda-iitgn.zulipchat.com/][lambda-iitgn.zulipchat.com]].
+** /Snail-mail/
+   Jurqia 324
+   IIT Gandhinagar
+   Palaj 382016

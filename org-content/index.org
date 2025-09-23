@@ -1,8 +1,3 @@
-# ###HTML_HEAD: <link rel="stylesheet" type="text/css" href="./static/template.css" />
-# #+begin_nav
-# #+html: <a href="https://www.w3schools.com/html/">HTML</a>
-# #+end_nav
-
 * /Welcome to ,\ AMBDA!/
 ** /What is ,\ AMBDA?/
    ,\ AMBDA. is a PLT hobby group at IIT Gandhinagar. It was formed as a hobby group in October 2024, and will (hopefully) be soon formally established as a club. 
