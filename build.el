@@ -49,7 +49,7 @@
 	     :with-creator t
 	     :with-latex t
 	     :with-emphasize t
-	     
+	     :with-title nil
 	     :with-toc nil
 	     :section-numbers nil
 	     :time-stamp-file nil)))
